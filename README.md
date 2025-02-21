@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+This is my personal portfolio project built with Next.js. It serves as a showcase of my work, skills, and development journey. I am a new developer currently learning through freeCodeCamp, Codecademy, Udemy, Scrimba, and Frontend Mentors.
 
-First, run the development server:
+## Design Inspiration
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The portfolio design is based on a community design available on [Figma](<https://www.figma.com/design/ffMsMcQFlMipKWhXO0BHhJ/Personal-Portfolio-Website-(Community)?node-id=1-1919&p=f&t=cg5pTtYEiIj6idsl-0>).
+
+## Technologies Used
+
+- **Next.js** – React framework for production
+- **Tailwind CSS v4** – Utility-first CSS framework
+- **ShadCN/UI** – Component library for UI development
+- **Custom Git Hooks** – Ensuring code quality (commit-msg, pre-commit, pre-push)
+- **GitHub Actions** – Automated code quality checks
+
+## Project Structure
+
+```markdown
+.
+├── LICENSE
+├── README.md
+├── commitlint.config.cjs
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── public
+│ ├── file.svg
+│ ├── globe.svg
+│ ├── next.svg
+│ ├── vercel.svg
+│ └── window.svg
+├── src
+│ ├── app
+│ │ ├── favicon.ico
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ ├── assets
+│ ├── components
+│ │ └── ui
+│ │ └── button.tsx
+│ ├── config
+│ ├── constants
+│ ├── context
+│ ├── data
+│ ├── env
+│ ├── hooks
+│ ├── lib
+│ │ └── utils.ts
+│ ├── styles
+│ │ └── globals.css
+│ └── types
+├── tailwind.config.ts
+├── tsconfig.json
+└── vercel.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/yourusername/portfolio-v3.git
+   ```
 
-## Learn More
+2. **Install dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   pnpm dev
+   ```
 
-## Deploy on Vercel
+## Learning Journey
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I am continuously expanding my skills through:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [Codecademy](https://www.codecademy.com/)
+- [Udemy](https://www.udemy.com/)
+- [Scrimba](https://scrimba.com/)
+- [Frontend Mentors](https://www.frontendmentors.io/)
+
+## Contributing
+
+This project is a personal portfolio and is not actively seeking external contributions. However, feel free to open issues or suggest improvements.
+
+## License
+
+This project is currently not licensed.
